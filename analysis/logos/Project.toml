@@ -1,0 +1,5 @@
+[deps]
+BioSeqInt = "576b2be1-a97f-46b2-8c3d-3d276b5e41b2"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+SequenceLogos = "7a3f67ce-6eeb-4904-9da4-2cbd106a5944"
