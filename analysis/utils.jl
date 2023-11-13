@@ -133,6 +133,8 @@ function confusion_matrix(ls, ls_thr, theta, theta_thr)
         "\t FN: ", sum(( ls .< ls_thr ).*( theta .>= theta_thr)), "\n",
         "FP: ", sum(( ls .>= ls_thr ).*( theta .< theta_thr)),
         "\t TN: ", sum(( ls .< ls_thr ).*( theta .< theta_thr)))
+    return (tpr = sum(( ls .>= ls_thr ).*( theta .>= theta_thr))/sum(theta .>= theta_thr),
+        fpr = sum(( ls .>= ls_thr ).*( theta .< theta_thr))/sum(theta .< theta_thr))
 end
 
 
