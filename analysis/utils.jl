@@ -5,7 +5,7 @@ function load_data_phagetree(path, tag)
     cnts = file["counts_$tag"]
     seqs_1hot=string2int(seqs, channeldim=false)
     plasmid = PhageTree.Experiment(seqs_1hot, cnts[:,1], "plasmid_$tag")
-    virus = PhageTree.Experiment(seqs_1hot, cnts[:,2], plasmid, "virus_$tag")
+    virus =PhageTree.Experiment(seqs_1hot, cnts[:,2], plasmid, "virus_$tag")
     return PhageTree.Data(plasmid)
 end
 
