@@ -24,7 +24,7 @@ The folders <code> phagetree_train </code> and <code> cnn_train </code> contain 
 
 # Suggestions
 
-The repository uses a couple of Julia packages that are not registered. One of them is <code> DensityPlot </code> and contains a small script to plot colored density scatter plots. It can be download and installed from **[this GitLab repo](https://gitlab.com/matteo.deleonardis2/densityplot.git)**. The other unregistered package is **[PhageTree](https://github.com/proteolabio/PhageTree.jl.git)** and contains the main implementation of the biophysical model. The packages can be manually installed via the command <code> Pkg.add("https://...") </code>.
+The repository uses a couple of Julia packages that are not registered. One of them is <code> DensityPlot </code> and contains a small script to plot colored density scatter plots. It can be download and installed from **[this GitLab repo](https://gitlab.com/matteo.deleonardis2/densityplot.git)**. The other unregistered package is **[BiophysViabilityModel](https://github.com/uguzzoni/BiophysViabilityModel.git)** and contains the main implementation of the biophysical model. The packages can be manually installed via the command <code> Pkg.add("https://...") </code>.
 
 # References and external links
 
