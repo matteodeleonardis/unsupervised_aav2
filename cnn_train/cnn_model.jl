@@ -1,3 +1,14 @@
+struct Inflate_Mat end
+struct Squeeze_Mat end
+
+function (a::Inflate_Mat)(x)
+    return reshape(x, size(x,1), 1, :)
+end
+
+function (a::Squeeze_Mat)(x)
+    return  reshape(x, size(x,1), :)
+end
+
 function create_model()
 
     model = Chain(
@@ -8,12 +19,12 @@ function create_model()
         BatchNorm(24),
         MaxPool((1,2),stride=(1,2)),
         Flux.flatten,
-        x -> reshape(x, size(x,1), 1, :),
+        Inflate_Mat(),
         Dense(672 => 128, relu),
         BatchNorm(1),
         Dense(128 => 64, relu),
         BatchNorm(1),
-        x -> reshape(x, size(x,1), :),
+        Squeeze_Mat(),
         Dense(64 => 2, identity)
     )
 

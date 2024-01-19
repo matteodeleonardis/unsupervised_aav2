@@ -102,9 +102,7 @@ version = "0.1.1"
 
 [[deps.BiophysViabilityModel]]
 deps = ["AbstractTrees", "Aqua", "ChainRulesCore", "ChainRulesTestUtils", "Distributions", "FiniteDifferences", "Flux", "LinearAlgebra", "LogExpFunctions", "OneHot", "Optim", "Random", "SpecialFunctions", "Statistics", "StatsFuns", "Test", "ValueHistories", "Zygote"]
-git-tree-sha1 = "c1beadd8b1c47393253c3821a944cee4a0e42d0d"
-repo-rev = "main"
-repo-url = "/home/students/s301803/.julia/dev/BiophysViabilityModel"
+path = "/home/students/s301803/.julia/dev/BiophysViabilityModel"
 uuid = "abeb9f55-f90e-4028-adfe-c9bded269993"
 version = "0.0.0"
 
