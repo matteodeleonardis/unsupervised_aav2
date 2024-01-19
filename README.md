@@ -7,7 +7,7 @@ All notebooks and scripts contain Julia code. The packages necessary to run the 
     <li> activate the project: <code> julia --project=. </code> </li>
     <li> instantiate the packages: <code> import Pkg; Pkg.instantiate() </code> </li>
 </ul>
-This code has been executed with Julia version 1.8.5. Using version 1.9.x might be not compatible with the data saved as <code> .jld2 </code>. If a version >= 1.9.x is used, it might be necessary to repeat the training and all other computations and preprocessing.
+This code has been executed with Julia version 1.8.5. If a version >= 1.9 is used, something might not work just as they are.
 
 # Main Files
 
@@ -25,7 +25,6 @@ The folders <code> phagetree_train </code> and <code> cnn_train </code> contain 
 # Suggestions
 
 The repository uses a couple of Julia packages that are not registered. One of them is <code> DensityPlot </code> and contains a small script to plot colored density scatter plots. It can be download and installed from **[this GitLab repo](https://gitlab.com/matteo.deleonardis2/densityplot.git)**. The other unregistered package is **[BiophysViabilityModel](https://github.com/uguzzoni/BiophysViabilityModel.git)** and contains the main implementation of the biophysical model. The packages can be manually installed via the command <code> Pkg.add("https://...") </code>. <br>
-The code has been run with Julia 1.8.5.
 
 # References and external links
 
