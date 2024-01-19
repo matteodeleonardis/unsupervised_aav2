@@ -7,7 +7,7 @@ All notebooks and scripts contain Julia code. The packages necessary to run the 
     <li> activate the project: <code> julia --project=. </code> </li>
     <li> instantiate the packages: <code> import Pkg; Pkg.instantiate() </code> </li>
 </ul>
-This code has been executed with Julia version 1.8.5. If a version >= 1.9 is used, something might not work just as they are.
+This code has been executed with Julia version 1.8.5. If a version >= 1.9 is used, something might not work just as it is.
 
 # Main Files
 
