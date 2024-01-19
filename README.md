@@ -16,7 +16,7 @@ The folder <code> preprocess and inspection </code> contains some notebooks to p
 If the user doesn't need to repeat the training of the models, he can jump directly to the folder <code> analysis </code> which contains the core of the repository. <br>
 The user can start from the notebook <code> fit_thresholds.ipynb </code> which has been used to estimate the threshold on the empirical log-selectivities for the binary labeling of the sequences as viable/non-viable.<br>
 Then the two notebooks <code> experiment*.ipynb </code> contains the main analysis and the most important figures of the article. <br>
-Finally the folder <code> logos </code> contains the notebook <code> exp3_logo.ipynb </code> that reproduces the logos plots in Fig. 7. This folder contains another Julia project file because it should be exercuted with a Julia version >= 1.9.3 to work properly.
+Finally the folder <code> logos </code> contains the notebook <code> exp3_logo.ipynb </code> that reproduces the logos plots in Fig. 7. This folder contains another Julia project and manifest because different packages are used (Julia >= 1.9.3 is recommended, just for the notebook <code> exp3_logo.ipynb <code>).
 
 # Secondary Files
 
