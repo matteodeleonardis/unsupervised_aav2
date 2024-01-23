@@ -8,8 +8,7 @@ All notebooks and scripts contain Julia code. The packages necessary to run the 
     <li> from the Julia REPL do (exactly in the order you see below):<br>
     <code>
     julia> using Pkg;<br> 
-    julia> Pkg.add(url="https://github.com/uguzzoni/BiophysViabilityModel.git");<br>
-    julia> Pkg.add(url="https://gitlab.com/matteo.deleonardis2/densityplot.git");<br>
+    julia>  Pkg.add([(url="https://github.com/uguzzoni/BiophysViabilityModel.git",),(url="https://gitlab.com/matteo.deleonardis2/densityplot.git",)])<br>
     </code>
     <li> instantiate the packages: <code> import Pkg; Pkg.instantiate() </code> </li>
 </ul>
