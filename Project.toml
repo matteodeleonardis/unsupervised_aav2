@@ -1,5 +1,4 @@
 [deps]
-BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
 BioSeqInt = "576b2be1-a97f-46b2-8c3d-3d276b5e41b2"
 BiophysViabilityModel = "abeb9f55-f90e-4028-adfe-c9bded269993"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
