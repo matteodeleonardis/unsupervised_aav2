@@ -5,7 +5,7 @@ All notebooks and scripts contain Julia code. The packages necessary to run the 
 <ul>
     <li> move to the repository folder: <code> cd folder_path/unsupervised_aav2 </code> </li>
     <li> activate the project: <code> julia --project=. </code> </li>
-    <li> from the Julia REPL do:<br>
+    <li> from the Julia REPL do (exactly in the order you see below):<br>
     <code>
     julia> using Pkg;<br> 
     julia> Pkg.add(url="https://github.com/uguzzoni/BiophysViabilityModel.git");<br>
