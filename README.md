@@ -10,7 +10,8 @@ All notebooks and scripts contain Julia code. The packages necessary to run the 
     julia> using Pkg;<br> 
     julia>  Pkg.add([(url="https://github.com/uguzzoni/BiophysViabilityModel.git",),(url="https://gitlab.com/matteo.deleonardis2/densityplot.git",)])<br>
     </code>
-    <li> instantiate the packages: <code> import Pkg; Pkg.instantiate() </code> </li>
+    <li> instantiate the packages: <code> <br>
+    julia> Pkg.instantiate() </code> </li>
 </ul>
 
 # Main Files
