@@ -5,6 +5,10 @@ All notebooks and scripts contain Julia code. The packages necessary to run the 
 <ul>
     <li> move to the repository folder: <code> cd folder_path/unsupervised_aav2 </code> </li>
     <li> activate the project: <code> julia --project=. </code> </li>
+    <li> from the Julia REPL do:
+    ```
+    julia> using Pkg; Pkg.add(url="https://github.com/uguzzoni/BiophysViabilityModel.git"); Pkg.add(url="https://gitlab.com/matteo.deleonardis2/densityplot.git");
+    ```
     <li> instantiate the packages: <code> import Pkg; Pkg.instantiate() </code> </li>
 </ul>
 
